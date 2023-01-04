@@ -36,6 +36,7 @@
 		F41A54C4296251BC00A2DD1F /* RMCharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41A54C3296251BC00A2DD1F /* RMCharacterDetailView.swift */; };
 		F41A54C62962520F00A2DD1F /* RMCharacterDetailViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41A54C52962520F00A2DD1F /* RMCharacterDetailViewViewModel.swift */; };
 		F4C23C3F2964BCD700137E41 /* RMFooterLoadingCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C23C3E2964BCD700137E41 /* RMFooterLoadingCollectionReusableView.swift */; };
+		F4C23C4129662EFC00137E41 /* RMImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C23C4029662EFC00137E41 /* RMImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		F41A54C3296251BC00A2DD1F /* RMCharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailView.swift; sourceTree = "<group>"; };
 		F41A54C52962520F00A2DD1F /* RMCharacterDetailViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailViewViewModel.swift; sourceTree = "<group>"; };
 		F4C23C3E2964BCD700137E41 /* RMFooterLoadingCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMFooterLoadingCollectionReusableView.swift; sourceTree = "<group>"; };
+		F4C23C4029662EFC00137E41 /* RMImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 		F41A54912958FB3400A2DD1F /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				F4C23C4029662EFC00137E41 /* RMImageLoader.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				F41A54A02958FF5F00A2DD1F /* RMEpisodeViewController.swift in Sources */,
 				F41A54BD296086D300A2DD1F /* RMCharacterCollectionViewCell.swift in Sources */,
 				F41A54B6295FBEDC00A2DD1F /* RMCharacterListViewViewModel.swift in Sources */,
+				F4C23C4129662EFC00137E41 /* RMImageLoader.swift in Sources */,
 				F41A547A2958F64000A2DD1F /* AppDelegate.swift in Sources */,
 				F41A547C2958F64000A2DD1F /* SceneDelegate.swift in Sources */,
 				F41A54A22958FF7C00A2DD1F /* RMSettingsViewController.swift in Sources */,

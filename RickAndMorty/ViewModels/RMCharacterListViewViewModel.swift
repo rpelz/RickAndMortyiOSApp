@@ -90,7 +90,7 @@ final class RMCharacterListViewViewModel: NSObject {
                 strongSelf.apiInfo = responseModel.info
                 
                 print(moreResults.count)
-                print(moreResults.first?.name)
+                // print(moreResults.first?.name)
                 
                 let originalCount = strongSelf.characters.count
                 let newCount = moreResults.count
