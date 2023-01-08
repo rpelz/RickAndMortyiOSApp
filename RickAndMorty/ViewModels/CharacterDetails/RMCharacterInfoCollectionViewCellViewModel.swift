@@ -8,5 +8,10 @@
 import Foundation
 
 final class RMCharacterInfoCollectionViewCellViewModel {
-    init() {}
+    public var title: String
+    public var value: String
+    init(title: String, value: String) {
+        self.title = title
+        self.value = value
+    }
 }
